@@ -54,3 +54,14 @@ div.tasks
     padding: 5%;
     background-color: black;
 }
+
+div.tasks-elements
+{
+    position: relative;
+    top: 10%;
+    height: 8%;
+    width: 90%;
+    padding: 5%;
+    background-color: rgb(43, 43, 43);
+   
+}
