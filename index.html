@@ -5,18 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/style.css">
+    <script src="dist/all.js"></script>
     <title>Document</title>
 </head>
 <body>
 <div id="god">
     <div class="title">
         <div class="user">
-            <div class="icon">MM</div>
+            <div class="icon" >MM</div>
             <div class="username">Maciej Macheta<br>zajęty</div>
         </div>
     </div>
-        <div class="tasks">Moje listy</div>
-        <div class="tasks-elements">Moja lista 1</div>
+        <div class="tasks" onclick="exit()">Moje listy:</div>
+        <div class="tasks-elements" onclick="taskbar()">Moja lista 1</div>
+        <div class="taskbar">
+            <div class="day">
+                <span>Dzisiaj</span>
+                <button class="mdi-plus-box-outline"></button>
+            </div>
+            <div class="day">
+                <span>Jutro</span>
+                <button class="mdi-plus-box-outline"></button>
+            </div>
+        </div>
 </div>
     
 </body>
