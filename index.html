@@ -18,14 +18,20 @@
     </div>
         <div class="tasks" onclick="exit()">Moje listy:</div>
         <div class="tasks-elements" onclick="taskbar()">Moja lista 1</div>
+        
         <div class="taskbar">
             <div class="day">
                 <span>Dzisiaj</span>
-                <button class="mdi-plus-box-outline"></button>
+                <button onclick="addToday()">Dodaj</button>
             </div>
+
+                <div></div>
+
+                <br>
+
             <div class="day">
                 <span>Jutro</span>
-                <button class="mdi-plus-box-outline"></button>
+                <button onclick="addTomorrow()">Dodaj</button>
             </div>
         </div>
 </div>

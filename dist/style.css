@@ -71,10 +71,21 @@ div.tasks-elements
 div.taskbar
 {
     position: relative;
-    display: none;
+    display: block;
     top: -20%;
     left: 110%;
     background-color:black;
     width: 100%;
     height: 40%;
+}
+
+div.day span
+{
+    padding-left: 5%;
+}
+
+div.day button
+{
+    float: right;
+    
 }

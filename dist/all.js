@@ -9,3 +9,4 @@ function exit()
     const alert = document.querySelector('.taskbar');
     alert.style.display = 'none'; 
 }
+
