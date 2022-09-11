@@ -13,13 +13,18 @@
     <div class="title">
         <div class="user">
             <div class="icon" >MM</div>
-            <div class="username">Maciej Macheta<br>zajęty</div>
+            <div class="username">Maciej Macheta<br>
+                <span class="active">zajęty</span></div>
         </div>
     </div>
-        <div class="tasks" onclick="exit()">Moje listy:</div>
+        <div class="tasks" onclick="exit()">
+        <img src="ok-icon.png" id="ok-icon">
+        MOJE LISTY:</div>
         <div class="tasks-elements" onclick="taskbar()">Moja lista 1</div>
         
+        
         <div class="taskbar">
+            <p class="taskbar-title">Moja Lista 1</p>
             <div class="day">
                 <span>Dzisiaj</span>
                 <button onclick="addToday()">Dodaj</button>
